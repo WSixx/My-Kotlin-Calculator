@@ -39,7 +39,8 @@
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="@string/button_ac"
-                android:textSize="18sp"/>
+                android:textSize="18sp"
+                android:onClick="buNumberEvent"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buPlusMins"
@@ -49,7 +50,8 @@
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="@string/button_plus_minus"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:onClick="buNumberEvent"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button8"
@@ -59,7 +61,8 @@
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="@string/button_percent"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:onClick="buNumberEvent"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buDiv"
@@ -69,7 +72,8 @@
                 android:background="@color/orange"
                 android:text="@string/button_div"
                 android:textColor="@color/white"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:onClick="buNumberEvent"/>
         </TableRow>
 
         <TableRow
@@ -85,7 +89,8 @@
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="@string/button_seven"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:onClick="buNumberEvent"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_marginEnd="1pt"
@@ -95,7 +100,8 @@
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="@string/button_eight"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:onClick="buNumberEvent"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_marginEnd="1pt"
@@ -105,7 +111,8 @@
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="@string/button_nine"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:onClick="buNumberEvent"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buMul"
@@ -115,7 +122,8 @@
                 android:background="@color/orange"
                 android:text="@string/button_mult"
                 android:textColor="@color/white"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:onClick="buNumberEvent"/>
         </TableRow>
 
         <TableRow
@@ -131,7 +139,8 @@
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="@string/button_four"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:onClick="buNumberEvent"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_marginEnd="1pt"
@@ -141,7 +150,8 @@
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="@string/button_five"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:onClick="buNumberEvent"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_marginEnd="1pt"
@@ -151,7 +161,8 @@
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="@string/button_six"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:onClick="buNumberEvent"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buSub"
@@ -161,7 +172,8 @@
                 android:background="@color/orange"
                 android:text="@string/button_minus"
                 android:textColor="@color/white"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:onClick="buNumberEvent"/>
         </TableRow>
 
         <TableRow
@@ -177,7 +189,8 @@
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="@string/button_one"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:onClick="buNumberEvent"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_marginEnd="1pt"
@@ -187,7 +200,8 @@
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="@string/button_two"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:onClick="buNumberEvent"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_marginEnd="1pt"
@@ -197,7 +211,8 @@
                 android:layout_weight="1"
                 android:background="@color/whiteback"
                 android:text="@string/button_three"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:onClick="buNumberEvent"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buSum"
@@ -207,7 +222,8 @@
                 android:background="@color/orange"
                 android:text="@string/button_plus"
                 android:textColor="@color/white"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:onClick="buNumberEvent"/>
         </TableRow>
     </TableLayout>
 
@@ -224,7 +240,8 @@
             android:layout_weight="1"
             android:background="@color/whiteback"
             android:text="@string/button_zero"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:onClick="buNumberEvent"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_marginEnd="1pt"
@@ -234,7 +251,8 @@
             android:layout_weight="1"
             android:background="@color/whiteback"
             android:text="@string/button_point"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:onClick="buNumberEvent"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button1"
@@ -244,7 +262,8 @@
             android:background="@color/orange"
             android:text="@string/button_equals"
             android:textSize="18sp"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            android:onClick="buNumberEvent"/>
 
     </LinearLayout>
 
