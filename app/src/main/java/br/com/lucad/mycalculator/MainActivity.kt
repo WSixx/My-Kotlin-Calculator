@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        etShowNumber.isFocusable = false
     }
 
 
@@ -54,8 +55,9 @@ class MainActivity : AppCompatActivity() {
                 buClickValue += "9"
             }
             buDot.id ->{
-                //TODO: PREVENT ADD MORE THAN 1 DOT
-                buClickValue += "."
+                if(!buClickValue.contains(".")){
+                    buClickValue += "."
+                }
             }
             buPlusMins.id ->{
                 buClickValue = "-$buClickValue"

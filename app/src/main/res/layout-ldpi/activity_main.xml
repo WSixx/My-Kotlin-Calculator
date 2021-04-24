@@ -39,8 +39,8 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button10"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="20pt"
+                android:layout_height="20pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
@@ -50,8 +50,8 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buPlusMins"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="20pt"
+                android:layout_height="20pt"
                 android:layout_marginEnd="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
@@ -61,8 +61,8 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button8"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="20pt"
+                android:layout_height="20pt"
                 android:layout_marginEnd="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
@@ -72,8 +72,8 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buDiv"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="20pt"
+                android:layout_height="20pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
                 android:onClick="buOpEvent"
@@ -89,8 +89,8 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/bu7"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="20pt"
+                android:layout_height="20pt"
                 android:layout_marginEnd="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
@@ -100,8 +100,8 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/bu8"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="20pt"
+                android:layout_height="20pt"
                 android:layout_marginEnd="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
@@ -111,8 +111,8 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/bu9"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="20pt"
+                android:layout_height="20pt"
                 android:layout_marginEnd="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
@@ -122,8 +122,8 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buMul"
-                android:layout_width="wrap_content"
-                android:layout_height="30pt"
+                android:layout_width="20pt"
+                android:layout_height="20pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
                 android:onClick="buOpEvent"
@@ -139,8 +139,8 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/bu4"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="20pt"
+                android:layout_height="20pt"
                 android:layout_marginEnd="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
@@ -150,8 +150,8 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/bu5"
-                android:layout_width="wrap_content"
-                android:layout_height="30pt"
+                android:layout_width="20pt"
+                android:layout_height="20pt"
                 android:layout_marginEnd="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
@@ -161,8 +161,8 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/bu6"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="20pt"
+                android:layout_height="20pt"
                 android:layout_marginEnd="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
@@ -172,8 +172,8 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buSub"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="20pt"
+                android:layout_height="20pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
                 android:onClick="buOpEvent"
@@ -189,8 +189,8 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/bu1"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="20pt"
+                android:layout_height="20pt"
                 android:layout_marginEnd="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
@@ -200,8 +200,8 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/bu2"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="20pt"
+                android:layout_height="20pt"
                 android:layout_marginEnd="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
@@ -211,8 +211,8 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/bu3"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="20pt"
+                android:layout_height="20pt"
                 android:layout_marginEnd="1pt"
                 android:layout_weight="1"
                 android:background="@color/whiteback"
@@ -222,8 +222,8 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buSum"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="20pt"
+                android:layout_height="20pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
                 android:onClick="buOpEvent"
@@ -241,7 +241,7 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/bu0"
             android:layout_width="60pt"
-            android:layout_height="30pt"
+            android:layout_height="20pt"
             android:layout_marginEnd="1pt"
             android:layout_weight="1"
             android:background="@color/whiteback"
@@ -252,7 +252,7 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/buDot"
             android:layout_width="30pt"
-            android:layout_height="30pt"
+            android:layout_height="20pt"
             android:layout_marginEnd="1pt"
             android:layout_weight="1"
             android:background="@color/whiteback"
@@ -263,7 +263,7 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button1"
             android:layout_width="30pt"
-            android:layout_height="30pt"
+            android:layout_height="20pt"
             android:layout_weight="1"
             android:background="@color/orange"
             android:onClick="buEqualEvent"
