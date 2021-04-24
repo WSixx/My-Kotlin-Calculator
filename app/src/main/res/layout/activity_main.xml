@@ -6,105 +6,163 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10pt"
+    android:background="@color/gray_back"
     tools:context=".MainActivity">
 
     <EditText
         android:layout_width="match_parent"
-        android:text="0"
         android:layout_height="wrap_content"
-        android:gravity="right"/>
+        android:text="0"
+        android:paddingTop="20pt"
+        android:paddingRight="2pt"
+        android:paddingBottom="2dp"
+        android:gravity="right"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:background="@color/gray"/>
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TableRow>
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+        <TableRow
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_margin="2dp"
+                android:background="@color/whiteback"
                 android:text="AC"
                 />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_margin="2dp"
+                android:background="@color/whiteback"
                 android:text="+/-"
                 />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_margin="2dp"
+                android:background="@color/whiteback"
+
                 android:text="%"
                 />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_margin="2dp"
+                android:background="@color/orange"
+                android:textColor="@color/white"
                 android:text="/"
                 />
         </TableRow>
-        <TableRow >
+        <TableRow
+            android:gravity="center">
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_margin="2dp"
+                android:background="@color/whiteback"
+                android:textColor="@color/black"
                 android:text="7"
                 />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_margin="2dp"
+                android:background="@color/whiteback"
+                android:textColor="@color/black"
                 android:text="8"
                 />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_margin="2dp"
+                android:background="@color/whiteback"
+                android:textColor="@color/black"
                 android:text="9"
                 />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_margin="2dp"
+                android:background="@color/orange"
+                android:textColor="@color/white"
                 android:text="X"
                 />
         </TableRow>
-        <TableRow >
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+        <TableRow
+            android:gravity="center">
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_margin="2dp"
+                android:background="@color/whiteback"
+                android:textColor="@color/black"
                 android:text="4"
                 />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_margin="2dp"
+                android:background="@color/whiteback"
+                android:textColor="@color/black"
                 android:text="5"
                 />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_margin="2dp"
+                android:background="@color/whiteback"
+                android:textColor="@color/black"
                 android:text="6"
                 />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_margin="2dp"
+                android:background="@color/orange"
+                android:textColor="@color/white"
                 android:text="-"
                 />
         </TableRow>
 
-        <TableRow >
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+        <TableRow
+            android:gravity="center">
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_margin="2dp"
+                android:background="@color/whiteback"
+                android:textColor="@color/black"
                 android:text="1"
                 />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_margin="2dp"
+                android:background="@color/whiteback"
+                android:textColor="@color/black"
                 android:text="2"
                 />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_margin="2dp"
+                android:background="@color/whiteback"
+                android:textColor="@color/black"
                 android:text="3"
                 />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="30pt"
+                android:layout_height="30pt"
+                android:layout_margin="2dp"
+                android:background="@color/orange"
+                android:textColor="@color/white"
                 android:text="+"
                 />
         </TableRow>
@@ -113,24 +171,31 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
         android:orientation="horizontal">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="62pt"
+            android:layout_height="30pt"
+            android:layout_margin="2dp"
+            android:background="@color/whiteback"
+            android:textColor="@color/black"
             android:text="0"
-            android:layout_marginStart="12dp"
             />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="30pt"
+            android:layout_height="30pt"
+            android:layout_margin="2dp"
+            android:background="@color/whiteback"
+            android:textColor="@color/black"
             android:text="."
-            android:layout_marginHorizontal="12dp"
             />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="32pt"
+            android:layout_height="30pt"
+            android:layout_margin="2dp"
+            android:background="@color/orange"
+            android:textColor="@color/white"
             android:text="="
             />
 
