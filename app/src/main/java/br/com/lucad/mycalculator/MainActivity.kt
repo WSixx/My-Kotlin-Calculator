@@ -12,7 +12,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
+
+    var op = "*"
+    var oldNumber = ""
+    var isNewOp = true
+
     fun buNumberEvent(view: View){
+        if(isNewOp) etShowNumber.text.clear()
+        isNewOp = false
         val buSelect = view as Button
         var buClickValue: String = etShowNumber.text.toString()
         when(buSelect.id){
@@ -55,6 +62,48 @@ class MainActivity : AppCompatActivity() {
             }
         }
         etShowNumber.setText(buClickValue)
-
     }
+
+    fun buOpEvent(view: View){
+
+        val buSelect = view as Button
+        when(buSelect.id){
+            buMul.id ->{
+                op = "*"
+            }
+            buDiv.id ->{
+                op = "/"
+            }
+            buSum.id ->{
+                op = "+"
+            }
+            buSub.id ->{
+                op = "-"
+            }
+        }
+        oldNumber = etShowNumber.text.toString()
+        isNewOp = true
+    }
+
+    fun buEqualEvent(view: View){
+        val newNumber = etShowNumber.text.toString()
+        var finalNumber: Double?=null
+        when(op){
+            "*"->{
+                finalNumber = oldNumber.toDouble() * newNumber.toDouble()
+            }
+            "/"->{
+                finalNumber = oldNumber.toDouble() / newNumber.toDouble()
+            }
+            "+"->{
+                finalNumber = oldNumber.toDouble() + newNumber.toDouble()
+            }
+            "-"->{
+                finalNumber = oldNumber.toDouble() - newNumber.toDouble()
+            }
+        }
+        etShowNumber.setText(finalNumber.toString())
+        isNewOp = true
+    }
+
 }

@@ -70,10 +70,10 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
+                android:onClick="buOpEvent"
                 android:text="@string/button_div"
                 android:textColor="@color/white"
-                android:textSize="18sp"
-                android:onClick="buNumberEvent"/>
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -120,10 +120,10 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
+                android:onClick="buOpEvent"
                 android:text="@string/button_mult"
                 android:textColor="@color/white"
-                android:textSize="18sp"
-                android:onClick="buNumberEvent"/>
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -170,10 +170,10 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
+                android:onClick="buOpEvent"
                 android:text="@string/button_minus"
                 android:textColor="@color/white"
-                android:textSize="18sp"
-                android:onClick="buNumberEvent"/>
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -220,10 +220,10 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
+                android:onClick="buOpEvent"
                 android:text="@string/button_plus"
                 android:textColor="@color/white"
-                android:textSize="18sp"
-                android:onClick="buNumberEvent"/>
+                android:textSize="18sp" />
         </TableRow>
     </TableLayout>
 
@@ -260,10 +260,10 @@
             android:layout_height="30pt"
             android:layout_weight="1"
             android:background="@color/orange"
+            android:onClick="buEqualEvent"
             android:text="@string/button_equals"
-            android:textSize="18sp"
             android:textColor="@color/white"
-            android:onClick="buNumberEvent"/>
+            android:textSize="18sp" />
 
     </LinearLayout>
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyCalculator</string>
+    <string name="app_name">My Calculator</string>
     <string name="button_equals">=</string>
     <string name="button_point">.</string>
     <string name="button_zero">0</string>
